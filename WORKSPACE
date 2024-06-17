@@ -71,10 +71,10 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 #-----------------------------------------------------------------------------
 http_archive(
     name = "rules_proto",
-    sha256 = "e017528fd1c91c5a33f15493e3a398181a9e821a804eb7ff5acdd1d2d6c2b18d",
-    strip_prefix = "rules_proto-4.0.0-3.20.0",
+    sha256 = "6fb6767d1bef535310547e03247f7518b03487740c11b6c6adb7952033fe1295",
+    strip_prefix = "rules_proto-6.0.2",
     urls = [
-        "https://github.com/bazelbuild/rules_proto/archive/refs/tags/4.0.0-3.20.0.tar.gz",
+        "https://github.com/bazelbuild/rules_proto/archive/refs/tags/6.0.2.tar.gz",
     ],
 )
 
