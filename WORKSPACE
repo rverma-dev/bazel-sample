@@ -121,9 +121,9 @@ compat_repositories()
 #-----------------------------------------------------------------------------
 http_archive(
     name = "build_stack_rules_proto",
-    sha256 = "16c93fe75314f21f8ef786f27668e2d796400950df1fcd7d249be426420405ac",
-    strip_prefix = "rules_proto-9bea22f9fe0bb81c9cbfa855e6bf979faa73f742",
-    urls = ["https://github.com/stackb/rules_proto/archive/9bea22f9fe0bb81c9cbfa855e6bf979faa73f742.tar.gz"],
+    sha256 = "002fa80f1614181b532cbb0ef83d5b859b0b928f2b2a2a733f2d6246dae6fd2f",
+    strip_prefix = "rules_proto-3b147a8ef41e49ae6524a938c4c187e8acf004e2",
+    urls = ["https://github.com/stackb/rules_proto/archive/3b147a8ef41e49ae6524a938c4c187e8acf004e2.tar.gz"],
 )
 
 register_toolchains("@build_stack_rules_proto//toolchain:prebuilt")
