@@ -59,9 +59,9 @@ rules_java_toolchains()
 #-----------------------------------------------------------------------------
 http_archive(
     name = "rules_jvm_external",
-    sha256 = "cd1a77b7b02e8e008439ca76fd34f5b07aecb8c752961f9640dea15e9e5ba1ca",
-    strip_prefix = "rules_jvm_external-4.2",
-    url = "https://github.com/bazelbuild/rules_jvm_external/archive/4.2.zip",
+    sha256 = "8c92f7c7a57273c692da459f70bd72464c87442e86b9e0b495950a7c554c254f",
+    strip_prefix = "rules_jvm_external-6.4",
+    url = "https://github.com/bazelbuild/rules_jvm_external/archive/6.4.zip",
 )
 
 load("@rules_jvm_external//:defs.bzl", "maven_install")
